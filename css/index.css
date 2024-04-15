@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+    font-family: "FF Mark W05", Arial, sans-serif;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+
+.logobar {
+    background-color: black;
+    color: #f4f4f4;
+    padding: 0.625em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 9.31em;
+    top: 0;
+    z-index: 1000;
+}
+
+.logobar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logobar li {
+    margin-right: 1.25em;
+}
+
+.logobar a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    color: #f4f4f4;
+}
+
+/* Carousel styles */
+
+.placeholder{
+    z-index: 1000;
+    color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+}
+
+.mid_carrusel{
+    margin: auto;
+    width: 50%;
+    max-height: 50vh;
+    padding: 4em;
+}
+
+.mid_carrusel .container{
+    width: 400%;
+    overflow-y: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding:2em;
+    transform: translateX(-0%);
+}
+
+.container .img{
+    width: calc( 100% / 4 );
+    padding-right: 30em;
+}
+
+/* Footer styles */
+
+.footer {
+    background-color: black;
+    color: #f4f4f4;
+    bottom: 0;
+    width: 100%;
+    font-family: "FF Mark W05", Arial, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    display: block;
+}
+
+.footer__col {
+    display: flex;
+    justify-content:space-between;
+}
+
+/* Payment methods */
+.footer__col-upper{
+    display:block;
+}
+.payment-methods li {
+    align-content: left;
+    vertical-align: top;
+    display: inline;
+    align-self: right;
+}
+
+/* Social icons */
+
+.footer-social-icons {
+    width: 21.875em;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 0.625em;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 6.25em;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+/* contact info */
+
+.footer_col-right {
+    position: absolute;
+    right: 2.19em;
+    bottom: 2.19em;
+    
+}
+
+/* copyright */
+
+.copyright {
+    position: absolute;
+    left:50%;
+    bottom: 0%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    color:#818080; 
+}
