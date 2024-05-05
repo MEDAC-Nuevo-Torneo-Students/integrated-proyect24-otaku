@@ -1,55 +1,53 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-* { 
+body {
+  font-family: "FF Mark W05", Arial, sans-serif;
+  background-color: #D9D9D9;
+  text-decoration: none;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-    font-family: "FF Mark W05", Arial, sans-serif;
-    background-color: #D9D9D9;
-    text-decoration: none;
-    list-style: none;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
 }
 
 /* Header styles */
 
 .logobar {
-    background-color: black;
-    color: #f4f4f4;
-    padding: 0.625em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    max-height: 9.31em;
-    top: 0;
-    z-index: 1000;
+  background-color: black;
+  color: #f4f4f4;
+  padding: 0.625em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 9.31em;
+  max-height: 10vh;
+  top: 0;
+  z-index: 1000;
 }
 
 .logobar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .logobar li {
-    margin-right: 1.25em;
+  margin-right: 1.25em;
 }
 
 .logobar a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 32px;
-    color: #f4f4f4;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 3.125vh;
+  color: #f4f4f4;
 }
+
 
 /* Body code*/
 
@@ -60,9 +58,10 @@ body {
   color: #fff;
 }
 .container {
-  padding-top: 7em;
-  padding-bottom: 4em;
-  margin-top: 9em;
+  padding-top: 15vh;
+  padding-bottom: 7vh;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,12 +194,13 @@ body {
 /* Footer styles */
 
 .footer {
-  padding-top: 2em;
+  padding-bottom: 3em;
   background-color: black;
   color: #f4f4f4;
   bottom: 0;
-  min-height: 9em;
+  max-height: 10vh;
   width: 100%;
+  font-size: 2vh;
   font-family: "FF Mark W05", Arial, sans-serif;
   text-decoration: none;
   position: absolute;
@@ -316,8 +316,9 @@ ul.social-icons {
 
 .copyright {
   position: absolute;
+  font-size: 1.5vh;
   left:50%;
-  bottom: 0%;
+  bottom: -3.5vh;
   transform: translate(-50%,-50%);
   font-weight: bold;
   color:#818080; 
