@@ -8,5 +8,8 @@ router
     .get('/', routesController.getIndex)
     .get('/login', routesController.getLogin)
     .get('/signup', routesController.getSignup)
+    .get('/shop', routesController.getShop)
+    .get('/cart', routesController.getCart)
+    
 
 module.exports = router;
