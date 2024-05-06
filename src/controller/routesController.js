@@ -10,10 +10,20 @@ const getSignup = (req, res) => {
     res.render('signup',{ mensaje: '' });
 };
 
+const getShop = (req, res) => {
+    res.render('shop',{ mensaje: '' });
+};
+
+const getCart = (req, res) => {
+    res.render('cart',{ mensaje: '' });
+};
+
 // Exporta las funciones y el enrutador
 module.exports = {
     getIndex,
     getLogin,
-    getSignup
+    getSignup,
+    getShop,
+    getCart
 
 };

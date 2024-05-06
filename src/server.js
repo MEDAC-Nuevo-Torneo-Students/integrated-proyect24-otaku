@@ -26,6 +26,8 @@ app.set('views', './src/views');
 app.use('/', routes);
 app.use('/login', routes);
 app.use('/signup', routes);
+app.use('/shop', routes);
+app.use('/cart', routes);
 
 
 
