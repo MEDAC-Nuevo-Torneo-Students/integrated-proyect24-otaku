@@ -18,12 +18,22 @@ const getCart = (req, res) => {
     res.render('cart',{ mensaje: '' });
 };
 
+const postRegister = (req, res) => {
+    res.render('register',{ mensaje: '' });
+};
+
+const postLogin = (req, res) => {
+    res.render('login',{ mensaje: '' });
+};
+
 // Exporta las funciones y el enrutador
 module.exports = {
     getIndex,
     getLogin,
     getSignup,
     getShop,
-    getCart
+    getCart,
+    postRegister,
+    postLogin
 
 };
