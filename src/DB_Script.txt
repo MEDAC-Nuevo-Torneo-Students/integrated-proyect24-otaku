@@ -15,9 +15,17 @@ CREATE TABLE IF NOT EXISTS customers (
     gender CHAR(10) NOT NULL
    );
 
+-- Table of categories
+CREATE TABLE IF NOT EXISTS categories (
+    category_id INT NOT NULL PRIMARY KEY,
+    category_name CHAR(50) NOT NULL,
+    category_type CHAR(50) NOT NULL,
+    description CHAR(50)
+);
+
 -- Table of products
 CREATE TABLE IF NOT EXISTS products (
-    product_id INT NOT NULL PRIMARY KEY AUTO,
+    product_id INT NOT NULL PRIMARY KEY auto_increment,
     category_id INT NOT NULL,
     name CHAR(50) NOT NULL,
     description CHAR(100),
@@ -31,14 +39,6 @@ CREATE TABLE IF NOT EXISTS sellers (
     name CHAR(50) NOT NULL,
     contact CHAR(50),
     description CHAR(100)
-);
-
--- Table of categories
-CREATE TABLE IF NOT EXISTS categories (
-    category_id INT NOT NULL PRIMARY KEY,
-    category_name CHAR(50) NOT NULL,
-    category_type CHAR(50) NOT NULL,
-    description CHAR(50)
 );
 
 -- Table of shipments
@@ -67,13 +67,11 @@ CREATE TABLE IF NOT EXISTS cart_orders (
 
 -- Table of shopping orders
 CREATE TABLE IF NOT EXISTS shopping_orders (
-    order_id INT NOT NULL PRIMARY KEY,
+    s_order_id INT NOT NULL PRIMARY KEY,
     customer_id INT NOT NULL,
     payment_id INT NOT NULL,
-    product_id INT NOT NULL,
+    order_id INT NOT NULL,
     order_date DATE NOT NULL,
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
-    FOREIGN KEY (payment_id) REFERENCES payment(payment_method),
-    FOREIGN KEY (product_id) REFERENCES products(product_id)
+    FOREIGN KEY (order_id) REFERENCES cart_orders(order_id)
 );
-
