@@ -1,4 +1,3 @@
-
 -- Create the OTAKU database
 CREATE DATABASE OTAKU;
 
