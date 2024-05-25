@@ -1,15 +1,15 @@
 // -----------------JS barra sticky-----------------
-
-const classbar = document.querySelector('#class_filtrer_container');
-let top = classbar.offsetTop;
+/*
+const classbar = document.querySelector('#class_filtrer');
+let topS = classbar.offsetTop;
 function stickyclassbar() {
-    if (window.scrollY >= top) {
+    if (window.scrollY >= topS) {
         classbar.classList.add('sticky');
     } else {
         classbar.classList.remove('sticky');
     }
 }
-window.addEventListener('scroll', stickyclassbar);
+window.addEventListener('scroll', stickyclassbar);*/
 
 
 // ------------------JS productos-----------------
@@ -23,11 +23,10 @@ fetch("../js/products.json")
     })
 
 
-const contenedorProductos = document.querySelector("#contenedor-productos");
-const botonesCategorias = document.querySelectorAll(".boton-categoria");
+const contenedorProductos = document.querySelector("#shop_grid");
+const botonesCategorias = document.querySelectorAll(".filtrer_option");
 const tituloPrincipal = document.querySelector("#titulo-principal");
-let botonesAgregar = document.querySelectorAll(".producto-agregar");
-const numerito = document.querySelector("#numerito");
+let botonesComprar = document.querySelectorAll(".product_buy");
 
 
 botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
@@ -37,18 +36,17 @@ botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
 
 function cargarProductos(productosElegidos) {
 
-    contenedorProductos.innerHTML = "";
+    contenedorProductos.innerHTML = " ";
 
     productosElegidos.forEach(producto => {
 
-        const div = document.createElement("div");
-        div.classList.add("producto");
+        const div = document.createElement("a");
+        div.classList.add("products");
         div.innerHTML = `
-            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-            <div class="producto-detalles">
-                <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}">Agregar</button>
+            <img class="product_image" src="${producto.imagen}" alt="${producto.titulo}">
+            <div class="product_details">
+                <h3 class="product_title">${producto.titulo}</h3>
+                <button class="product_buy" id="${producto.id}">${producto.precio}€</button>
             </div>
         `;
 
