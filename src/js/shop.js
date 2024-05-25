@@ -1,3 +1,18 @@
+// -----------------JS barra sticky-----------------
+
+const classbar = document.querySelector('#class_filtrer_container');
+let top = classbar.offsetTop;
+function stickyclassbar() {
+    if (window.scrollY >= top) {
+        classbar.classList.add('sticky');
+    } else {
+        classbar.classList.remove('sticky');
+    }
+}
+window.addEventListener('scroll', stickyclassbar);
+
+
+// ------------------JS productos-----------------
 let productos = [];
 
 fetch("../js/products.json")
