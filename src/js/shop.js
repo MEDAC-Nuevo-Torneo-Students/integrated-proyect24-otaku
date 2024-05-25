@@ -77,7 +77,7 @@ botonesCategorias.forEach(boton => {
 });
 
 function actualizarBotonesAgregar() {
-    botonesAgregar = document.querySelectorAll(".producto-agregar");
+    botonesAgregar = document.querySelectorAll(".product_buy");
 
     botonesAgregar.forEach(boton => {
         boton.addEventListener("click", agregarAlCarrito);
@@ -90,7 +90,6 @@ let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
 
 if (productosEnCarritoLS) {
     productosEnCarrito = JSON.parse(productosEnCarritoLS);
-    actualizarNumerito();
 } else {
     productosEnCarrito = [];
 }
