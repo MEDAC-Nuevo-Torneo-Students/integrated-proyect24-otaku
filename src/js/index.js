@@ -1,37 +1,49 @@
-function App() {}
-    
-    window.onload = function(event) {
-        var app = new App();
-        window.app = app;
+//step 1: get DOM
+let nextDom = document.getElementById('next');
+let prevDom = document.getElementById('prev');
+
+let carouselDom = document.querySelector('.carousel');
+let SliderDom = carouselDom.querySelector('.carousel .list');
+let thumbnailBorderDom = document.querySelector('.carousel .thumbnail');
+let thumbnailItemsDom = thumbnailBorderDom.querySelectorAll('.item');
+let timeDom = document.querySelector('.carousel .time');
+
+thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
+let timeRunning = 3000;
+let timeAutoNext = 7000;
+
+nextDom.onclick = function () {
+    showSlider('next');
+}
+
+prevDom.onclick = function () {
+    showSlider('prev');
+}
+let runTimeOut;
+let runNextAuto = setTimeout(() => {
+    next.click();
+}, timeAutoNext)
+function showSlider(type) {
+    let SliderItemsDom = SliderDom.querySelectorAll('.carousel .list .item');
+    let thumbnailItemsDom = document.querySelectorAll('.carousel .thumbnail .item');
+
+    if (type === 'next') {
+        SliderDom.appendChild(SliderItemsDom[0]);
+        thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
+        carouselDom.classList.add('next');
+    } else {
+        SliderDom.prepend(SliderItemsDom[SliderItemsDom.length - 1]);
+        thumbnailBorderDom.prepend(thumbnailItemsDom[thumbnailItemsDom.length - 1]);
+        carouselDom.classList.add('prev');
     }
+    clearTimeout(runTimeOut);
+    runTimeOut = setTimeout(() => {
+        carouselDom.classList.remove('next');
+        carouselDom.classList.remove('prev');
+    }, timeRunning);
 
-    App.prototype.processingButton = function(event) {
-        
-        const btn =  event.currentTarget;
-        const carruselList = event.currentTarget.parentNode;
-        const track = event.currentTarget.parentNode.querySelector('#');
-        const carrusel = track.querySelectorAll('carrusel');
-
-        const carruselWidth = carrusel(0).offsetWidth;
-        const trackWidth = track.offsetWidth;
-        const listWidth = carruselList.offsetWidth;
-
-        track.style.left == "" ? leftPosition = track.style.left = 0 : leftPosition = parseFloat(track.style.left.slice(0,-2) * -1);
-        btn.dataset.button == "button-prev" ? prevAction(leftPosition,carruselWidth,track) : nextAction(leftPosition,trackWidth, carruselWidth, track);
-
-    }
-
-    let prevAction = (leftPosition, carruselWidth, track) => {
-        if(leftPosition > 0) {
-            track.style.left = `${-1 * (leftPosition -carruselWidth)}px`;
-        }
-    }
-
-    let nextAction = (leftPosition, trackWidth, listWidth, carruselWidth, track) => {
-
-        if(leftPosition < (trackWidth - listWidth)) {
-            track.style.left = `${-1 * (leftPosition + carruselWidth)}px`;
-        }
-
-    }
-
+    clearTimeout(runNextAuto);
+    runNextAuto = setTimeout(() => {
+        next.click();
+    }, timeAutoNext)
+}
