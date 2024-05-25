@@ -1,15 +1,15 @@
 // -----------------JS barra sticky-----------------
-/*
+
 const classbar = document.querySelector('#class_filtrer');
-let topS = classbar.offsetTop;
+let classbarTop = classbar.offsetTop;
 function stickyclassbar() {
-    if (window.scrollY >= topS) {
+    if (window.scrollY >= classbarTop) {
         classbar.classList.add('sticky');
     } else {
         classbar.classList.remove('sticky');
     }
 }
-window.addEventListener('scroll', stickyclassbar);*/
+window.addEventListener('scroll', stickyclassbar);
 
 
 // ------------------JS productos-----------------

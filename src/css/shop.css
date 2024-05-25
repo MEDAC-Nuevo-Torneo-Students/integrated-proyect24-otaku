@@ -99,7 +99,9 @@ header {
 
 .sticky {
     position: fixed;
-    top: 1em;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 /* --------Products container-------- */
