@@ -111,13 +111,13 @@
     
     {
         "id": "anime-4",
-        "titulo": "Frieren: Más allá del fin del viaje Figura escala 1/7",
-        "imagen": "../images/Anime/frieren_figure_1.jpg.webp",
+        "titulo": "One Piece Monkey D. Luffy Ichiban",
+        "imagen": "../images/Anime/ichiban-kuji-monkey-d-luffy.webp",
         "categoria": {
             "nombre": "Anime",
             "id": "anime"
         },
-        "precio": 135
+        "precio": 51.95
     },
     
     {
@@ -140,6 +140,39 @@
             "id": "anime"
         },
         "precio": 300
+    },
+
+    {
+        "id": "anime-7",
+        "titulo": "Hatsune Miku - Hatsune Miku - 1/7 - Rose Cage Ver. (Good Smile Company)",
+        "imagen": "../images/Anime/Adsiztasarim-147.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "precio": 244.95
+    },
+
+    {
+        "id": "anime-8",
+        "titulo": "SpyXFamily-Anya Forger-Bond Forger-Premium Chokonose Figure",
+        "imagen": "../images/Anime/spyxfamily-anya-forger-bond-forger-premium-chokonose-figure-onlyfigure-39447891935487.jpg",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "precio": 26.95
+    },
+
+    {
+        "id": "anime-9",
+        "titulo": "My Hero Academia-Midoriya Izuku-Ichiban Kuji-Ishi-A Prize",
+        "imagen": "../images/Anime/my-hero-academia-midoriya-izuku-ichiban-kuji-ishi-a-prize-onlyfigure-39573247262975.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "precio": 84.95
     },
     
     {
