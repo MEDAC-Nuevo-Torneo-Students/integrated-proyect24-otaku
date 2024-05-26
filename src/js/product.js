@@ -1,32 +1,3 @@
-// Get products from productos.json
-/*
-let products = null;
-fetch('../js/products.json')
-.then(response => response.json())
-.then(data => {
-    products = data;
-    console.log(products);
-    addDataToHTML();
-})
-// add data to HTML
-let listProduct = document.querySelector('.listProduct');
-function addDataToHTML(){
-    products.forEach(product => {
-        // create new element item
-        let newProduct = document.createElement('a');
-        newProduct.href = 'product.html?id=' + product.id;
-        newProduct.classList.add('item');
-        newProduct.innerHTML = `
-            <img src="${product.imagen}">
-            <h2>"${product.titulo}"</h2>
-            <div class="prize">${product.precio}</div>
-        `;
-
-        // add this element to list
-        listProduct.appendChild(newProduct);
-    })
-}*/
-
 //get dats product in products.json
 
 let products = null;
@@ -50,8 +21,15 @@ function showDetail () {
     // if has, add data this product in html
     detail.querySelector('.image img').src = thisProduct.imagen;
     detail.querySelector('.name').innerText = thisProduct.titulo;
-    detail.querySelector('.price').innerText = thisProduct.precio;
-    detail.querySelector('.description').inerText = thisProduct.descripcion;
+    detail.querySelector('.price').innerText = thisProduct.precio + " €";
+    detail.querySelector('.price2').innerText = (thisProduct.precio - 0.67).toFixed(2) + " €";
+    detail.querySelector('.price3').innerText = (thisProduct.precio * 0.95).toFixed(2) + " €";
+    detail.querySelector('.price4').innerText = (thisProduct.precio * 0.90).toFixed(2) + " €";
+    detail.querySelector('.description').innerText = thisProduct.descripcion;
+    detail.querySelector('.userImage').src = thisProduct.comentarios.imagen;
+    detail.querySelector('.userName').innerText = thisProduct.comentarios.usuario;
+    detail.querySelector('.comentText').innerText = thisProduct.comentarios.texto;
+
 
     // add data product similar
     let listProduct = document.querySelector('.listProduct');
@@ -61,10 +39,48 @@ function showDetail () {
         newProduct.href = '/product?id=' + product.id;
         newProduct.classList.add('item');
         newProduct.innerHTML = `
-            <img src="${product.imagen}">
-            <h2>"${product.titulo}"</h2>
-            <div class="prize">${product.precio}</div>
-        `;
+            <img class="product_image" src="${product.imagen}" alt="${product.titulo}">
+            <div class="product_details">
+                <h3 class="product_title">${product.titulo}</h3>
+                <button class="product_buy" id="${product.id}">${product.precio}€</button>
+            </div>
+    `;
         listProduct.appendChild(newProduct);
     }) 
+}
+
+// codigo de boton carrito
+
+function actualizarBotonesAgregar() {
+    botonesAgregar = document.querySelectorAll(".product_buy");
+
+    botonesAgregar.forEach(boton => {
+        boton.addEventListener("click", agregarAlCarrito);
+    });
+}
+
+let productosEnCarrito;
+
+let productosEnCarritoLS = localStorage.getItem("productos-en-carrito");
+
+if (productosEnCarritoLS) {
+    productosEnCarrito = JSON.parse(productosEnCarritoLS);
+} else {
+    productosEnCarrito = [];
+}
+
+function agregarAlCarrito(e) {
+
+    const idBoton = e.currentTarget.id;
+    const productoAgregado = productos.find(producto => producto.id === idBoton);
+
+    if (productosEnCarrito.some(producto => producto.id === idBoton)) {
+        const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
+        productosEnCarrito[index].cantidad++;
+    } else {
+        productoAgregado.cantidad = 1;
+        productosEnCarrito.push(productoAgregado);
+    }
+
+    localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
 }

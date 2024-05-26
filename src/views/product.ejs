@@ -34,57 +34,64 @@
         
         <div class="detail">
             <h1 class="name"></h1>
-            <div class="content">
-                <div class="leftDetail">
-                    <div class="image">
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <div class="rightDetail">
-                    <div class="labelResume">SINOPSIS</div>
-                    <div class="description"></div>
-                    <div class="priceTable">
-                        <div class="labelPriceTable">
-                            <ul>
-                                <li class="vendorPrice">
-                                    <div class="nameVendor">Precio Oficial Otaku: </div>
-                                    <div class="price"></div>
-                                </li>
-                                <li class="vendorPrice">
-                                    <div class="nameVendor">NostromoShop: </div>
-                                    <div class="price"></div>
-                                </li>
-                                <li class="vendorPrice">
-                                    <div class="nameVendor">ArigatoONLINE: </div>
-                                    <div class="price"></div>
-                                </li>
-                                <li class="vendorPrice">
-                                    <div class="nameVendor">PadillaPedro98</div>
-                                    <div class="price"></div>
-                                </li>
-                            </ul>
+            <div class="wrapper">
+                <div class="content">
+                    <div class="leftDetail">
+                        <div class="image">
+                            <img src="" alt="">
                         </div>
                     </div>
-                    <div class="addToCard">
-                        <button>AÑADIR AL CARRO</button>
-                    </div>
-                </div>           
-            </div>
-            <div class="comments">
-                <div class="labelComments">Valoraciones</div>
-                <div class="commentBox">
-                    <div class="likeButton"></div>
-                    <div class="comentUser">
-                        <img src="" alt="" class="userImage">
-                        <div class="userName"></div>
-                    </div>
-                    <div class="comentText"></div>
+                    <div class="rightDetail">
+                        <div class="labelResume">SINOPSIS</div>
+                        <div class="description"></div>
+                        <div class="priceTable">
+                            <div class="labelPriceTable">Lista de vendedores</div>
+                            <div class="priceSelector">
+                                <fieldset>
+                                    <div class="field">
+                                        <input class="vendorPrice" name="vendorPrice" type="radio" value="otaku"/>
+                                        <label class="nameVendor">Precio Oficial Otaku: </label>
+                                        <label class="price"></label>
+                                    </div>
+                                    <div class="field">
+                                        <input class="vendorPrice" name="vendorPrice" type="radio" value="nostromo"/>
+                                        <label class="nameVendor">NostromoShop: </label>
+                                        <label class="price2"></label>
+                                    </div>
+                                    <div class="field">
+                                        <input class="vendorPrice" name="vendorPrice" type="radio" value="arigato"/>
+                                        <label class="nameVendor">ArigatoONLINE: </label>
+                                        <label class="price3"></label>
+                                    </div>
+                                    <div class="field">
+                                        <input class="vendorPrice" name="vendorPrice" type="radio" value="pedroPadilla98"/>
+                                        <label class="nameVendor">PadillaPedro98</label>
+                                        <label class="price4"></label>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="addToCard">
+                            <button class="product_buy" id="">AÑADIR AL CARRO</button>
+                        </div>
+                    </div>           
                 </div>
-            </div>
-            <div class="otherProducts">
-                <div class="similarList">Productos Similares</div>
-                <div class="listProduct">
+                <div class="comments">
+                    <div class="labelComments">Valoraciones</div>
+                    <div class="commentBox">
+                        <div class="likeButton"></div>
+                        <div class="comentUser">
+                            <img src="" alt="" class="userImage">
+                            <div class="userName"></div>
+                        </div>
+                        <div class="comentText"></div>
+                    </div>
+                </div>
+                <div class="otherProducts">
+                    <div class="similarList">Productos Similares</div>
+                    <div class="listProduct">
 
+                    </div>
                 </div>
             </div>
         </div>
