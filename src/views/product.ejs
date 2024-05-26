@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <title>OTAKU- Tienda online</title>
+    <link rel="stylesheet" href="../css/product.css">
 </head>
 
 <body>
@@ -30,118 +30,31 @@
         </nav>
     </header>
 
-    <!-- carousel -->
-    <div class="carousel">
-        <!-- list item -->
-        <div class="list">
-            <div class="item">
-                <img src="../images/Anime/chain_saw_man_figure_1.webp">
-                <div class="content">
-                    <div class="title">Chainsaw Man</div>
-                    <div class="des">
-                        <!-- lorem 50 -->
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
-                        placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et
-                        quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at
-                        laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                    </div>
-                </div>
+    <div class="container">
+        <div class="title">PRODUCT DETAIL</div>
+        <div class="detail">
+            <div class="image">
+                <img src="" alt="">
             </div>
-            <div class="item">
-                <img src="../images/Anime/fate_grand_order_figure_1.jpg.webp">
-                <div class="content">
-                    <div class="title">Fate Grand Order</div>
-                    <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
-                        placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et
-                        quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at
-                        laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                    </div>
+            <div class="content">
+                <h1 class="name"></h1>
+                <div class="price"></div>
+                <div class="buttons">
+                    <button>Check Out</button>
+                    <button>
+                        Add To Cart
+                        
+                    </button>
                 </div>
-            </div>
-            <div class="item">
-                <img src="../images/Anime/Yuyutsu_figure_1.jpg.webp">
-                <div class="content">
-                    <div class="title">Yuyutsu</div>
-                    <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
-                        placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et
-                        quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at
-                        laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="../images/Manga/dragon-ball-vol-3.jpg">
-                <div class="content">
-                    <div class="title">Dragon Ball</div>
-                    <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima
-                        placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et
-                        quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at
-                        laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
-                    </div>
-                </div>
+                <div class="description"></div>
             </div>
         </div>
-        <!-- list thumnail -->
-        <div class="thumbnail">
-            <div class="item">
-                <img src="../images/Anime/chain_saw_man_figure_1.webp">
-                <div class="content">
-                    <div class="title">
-                        Chainsaw Man
-                    </div>
-                    <div class="description">
-                        Description
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="../images/Anime/fate_grand_order_figure_1.jpg.webp">
-                <div class="content">
-                    <div class="title">
-                        Fate Grand Order
-                    </div>
-                    <div class="description">
-                        Description
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="../images/Anime/Yuyutsu_figure_1.jpg.webp">
-                <div class="content">
-                    <div class="title">
-                        Yuyutsu
-                    </div>
-                    <div class="description">
-                        Description
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="../images/Manga/dragon-ball-vol-3.jpg">
-                <div class="content">
-                    <div class="title">
-                        Dragon Ball
-                    </div>
-                    <div class="description">
-                        Description
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- next prev -->
-
-        <div class="arrows">
-            <button id="prev"><</button>
-                    <button id="next">></button>
-        </div>
-        <!-- time running -->
-        <div class="time"></div>
     </div>
 
-    <script src="../js/index.js"></script>
+    <div class="similarList">Productos Similares</div>
+    <div class="listProduct"></div>
+
+    <script src="../js/product.js"></script>
 </body>
 
 <footer class="footer">
@@ -293,10 +206,10 @@
                     </g>
                 </svg></a>
         </div>
+        <div class="copyright">
+            <p>&#169 2024. Desarrollado por Moisés Moreno Mendoza</p>
+        </div>
     </div>
 </footer>
-<div class="copyright">
-    <p>&#169 2024. Desarrollado por Moisés Moreno Mendoza</p>
-</div>
 
 </html>

@@ -28,6 +28,7 @@ app.use('/login', routes);
 app.use('/signup', routes);
 app.use('/shop', routes);
 app.use('/cart', routes);
+app.use('/product', routes);
 
 
 

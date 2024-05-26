@@ -35,8 +35,9 @@ function cargarProductos(productosElegidos) {
 
     productosElegidos.forEach(producto => {
 
-        const div = document.createElement("a");
+        let div = document.createElement("a");
         div.classList.add("products");
+        div.href = '/product?id=' + producto.id;
         div.innerHTML = `
             <img class="product_image" src="${producto.imagen}" alt="${producto.titulo}">
             <div class="product_details">
