@@ -55,7 +55,7 @@ function showDetail () {
 
     // add data product similar
     let listProduct = document.querySelector('.listProduct');
-    (products.filter(value => value.id != productId))
+    (products.filter(value => value.id != productId && value.categoria.id === thisProduct.categoria.id))
     .forEach(product => {
         let newProduct = document.createElement('a');
         newProduct.href = '/product?id=' + product.id;
