@@ -66,7 +66,7 @@ header {
 }
 
 .detail .name {
-    font-size: 6.67vw;
+    font-size: 5vw;
     font-weight: bold;
     max-width: 93.68vw;
     max-height: max-content;
@@ -80,6 +80,7 @@ header {
     width: 95vw;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    box-shadow: 0 5px 10px #0004;
 }
 
 .content {
@@ -110,6 +111,7 @@ header {
     font-weight: bold;
     align-self: flex-start;
     padding-inline-start: 2vw;
+    text-shadow: 0 5px 10px #0004;
 }
 
 .rightDetail .description {
@@ -117,11 +119,13 @@ header {
     border-radius: 20px;
     margin-top: -1.4vw;
     padding: 1.4vw;
+    box-shadow: 0 5px 10px #0004;
     text-align: justify;
     text-justify: inter-word;
     text-align-last: justify;
     font-size: 1.67vw;
     font-weight: bold;
+    z-index: 1;
 }
 
 .labelPriceTable {
