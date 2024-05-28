@@ -90,7 +90,7 @@ header {
 }
 
 .leftDetail .image img {
-    width: 40.42vw;
+    width: 40.41vw;
     height: auto;
     margin: 2vw;
 }
@@ -102,22 +102,24 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 5px 10px #0004;
     padding: 2vw;
 }
 
-.labelResume {
-    font-size: 4.44vw;
+.rightDetail .head_resume .labelResume {
+    font-size: 4.22vw;
     color: white;
     font-weight: bold;
     align-self: flex-start;
     padding-inline-start: 2vw;
     text-shadow: 0 5px 10px #0004;
+    z-index: 1;
 }
 
-.rightDetail .description {
+.rightDetail .head_resume .description {
     background-color: white;
     border-radius: 20px;
-    margin-top: -1.4vw;
+    margin-top: -1vw;
     padding: 1.4vw;
     box-shadow: 0 5px 10px #0004;
     text-align: justify;
@@ -125,21 +127,33 @@ header {
     text-align-last: justify;
     font-size: 1.67vw;
     font-weight: bold;
-    z-index: 1;
+    z-index: 2;
+}
+
+.priceTable {
+    
 }
 
 .labelPriceTable {
-    font-size: 2.22vw;
+    font-size: 1.8vw;
     font-weight: bold;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-
 }
 
-.priceSelector form{
+.priceSelector .fieldset{
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 1vw;
     display: grid;
+}
 
+.priceSelector .fieldset .field {
+    padding: .2vw;
+}
 
+.priceSelector .fieldset .field:hover {
+    border: solid 2px cornflowerblue;
 }
 
 .shop_cart_sticky {
@@ -168,7 +182,7 @@ header {
     padding-bottom: 3em;
     background-color: black;
     color: #f4f4f4;
-    max-height: 10vh;
+    max-height: 5rem;
     width: 100%;
     font-size: 1.42vw;
     font-family: "FF Mark W05", Arial, sans-serif;
@@ -296,7 +310,7 @@ ul.social-icons {
     position: absolute;
     font-size: 1.07vw;
     left: 50%;
-    bottom: -3.5vh;
+    bottom: -1rem;
     transform: translate(-50%, -50%);
     font-weight: bold;
     color: #818080;
