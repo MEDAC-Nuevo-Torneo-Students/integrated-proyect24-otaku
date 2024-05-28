@@ -35,15 +35,17 @@ function cargarProductos(productosElegidos) {
 
     productosElegidos.forEach(producto => {
 
-        let div = document.createElement("a");
+        let div = document.createElement("div");
         div.classList.add("products");
         div.href = '/product?id=' + producto.id;
         div.innerHTML = `
-            <img class="product_image" src="${producto.imagen}" alt="${producto.titulo}">
-            <div class="product_details">
-                <h3 class="product_title">${producto.titulo}</h3>
-                <button class="product_buy" id="${producto.id}">${producto.precio}€</button>
-            </div>
+            <a class="link_product" href="/product?id=${producto.id}">
+                <img class="product_image" src="${producto.imagen}" alt="${producto.titulo}">
+                <div class="product_details">
+                    <h3 class="product_title">${producto.titulo}</h3>
+                </div>
+            </a>
+            <button class="product_buy" id="${producto.id}">${producto.precio} €</button>
         `;
 
         contenedorProductos.append(div);
