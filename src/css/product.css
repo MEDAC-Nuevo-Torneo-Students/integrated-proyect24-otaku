@@ -1,0 +1,459 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+    font-family: "FF Mark W05", Arial, sans-serif;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    list-style: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Header styles */
+
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logobar {
+    background-color: black;
+    color: #f4f4f4;
+    padding: 0.625em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 9.31em;
+    max-height: 10vh;
+    top: 0;
+}
+
+.logobar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logobar li {
+    margin-right: 1.25em;
+}
+
+.logobar a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3.125vh;
+    color: #f4f4f4;
+}
+
+/* Body styles */
+
+/* -------- Details -------- */
+
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail .name {
+    font-size: 5vw;
+    font-weight: bold;
+    max-width: 93.68vw;
+    max-height: max-content;
+    align-self: center;
+}
+
+/* -------- main content details -------- */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F0EC;
+    width: 95vw;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 5px 10px #0004;
+}
+
+.content {
+    display: flex;
+    padding: 5vw;
+    justify-content: space-evenly;
+}
+
+.leftDetail .image img {
+    width: 40.41vw;
+    height: auto;
+    margin: 2vw;
+}
+
+.rightDetail {
+    background-color: #D9D9D9;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 5px 10px #0004;
+    padding: 2vw;
+}
+
+.rightDetail .head_resume .labelResume {
+    font-size: 4.22vw;
+    color: white;
+    font-weight: bold;
+    align-self: flex-start;
+    padding-inline-start: 2vw;
+    text-shadow: 0 5px 10px #0004;
+    z-index: 1;
+}
+
+.rightDetail .head_resume .description {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -1vw;
+    padding: 1.4vw;
+    box-shadow: 0 5px 10px #0004;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: justify;
+    font-size: 1.67vw;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.labelPriceTable {
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+.priceSelector .fieldset{
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 1vw;
+    display: grid;
+}
+
+.priceSelector .fieldset .field {
+    padding: .2vw;
+}
+
+.priceSelector .fieldset .field:hover {
+    border: solid 2px cornflowerblue;
+}
+
+.shop_cart_sticky {
+    margin-left: 90vw;
+    display: flex;
+    position: sticky;
+    justify-content: flex-end;
+    bottom: 1em;
+}
+
+.addToCard .product_buy {
+    width: 14.58vw;
+    height: auto;
+    padding: .5vw;
+    background-color: #e64a41;
+    align-self: center;
+    font-size: 1.67vw;
+    font-weight: bold;
+    color: white;
+}
+
+.addToCard .product_buy:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    box-shadow: 0 5px 10px #0004;
+}
+
+/* comments section */
+
+.comments {
+    width: 80%;
+}
+
+.comments .commentBox{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+    background-color: #D9D9D9;
+    border: solid black 3px;
+    border-radius: 30px;
+}
+
+.comments .labelComments {
+    padding-inline-start: 4vw;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+.comentUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commentBox .comentUser img{
+    width: 9.86vw;
+    height: auto;
+    border: solid black 5px;
+}
+
+.comentUser .userName {
+    font-size: 1.66vw;
+    font-weight: bold;
+}
+
+.commentBox .comentText {
+    background-color: white;
+    border-radius: 20px;
+    margin: 2vw;
+    padding: 1.4vw;
+    box-shadow: 0 5px 10px #0004;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: none;
+    font-size: 1.67vw;
+    font-weight: bold;
+}
+
+.otherProducts {
+    margin: 5vh;
+    max-width: 80%;
+}
+
+.otherProducts .similarList {
+    padding-inline-start: 4vw;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+.otherProducts .listProduct {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 2vw;
+    border: solid black 3px;
+    border-radius: 30px;
+    
+}
+
+/* other products show */
+
+.otherProducts .item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 5px 10px #0004;
+    padding: 1vw;
+}
+
+.otherProducts .item .product_image {
+    width: 15.21vw;
+    height: 23.44vw;
+    object-fit: cover;
+    box-shadow: 0 0 8px 4px white;
+
+}
+
+.otherProducts .item .product_details {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.otherProducts .item .product_details .product_title{
+    align-self: center;
+    font-size: 1.11vw;
+    font-weight: bold;
+}
+
+.otherProducts .item .product_buy {
+    width: 8.26vw;
+    height: 3.13vw;
+    background-color: #e64a41;
+    border-radius: 5px;
+    align-self: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.otherProducts .item .product_buy:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    box-shadow: 0 5px 10px #0004;
+}
+
+.otherProducts .item:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    z-index: 1;
+    background-color: white;
+}
+
+.shop_cart_sticky {
+    margin-left: 90vw;
+    display: flex;
+    position: sticky;
+    justify-content: flex-end;
+    bottom: 1em;
+    z-index: 200;
+}
+
+/* Footer styles */
+
+.footer {
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 3em;
+    background-color: black;
+    color: #f4f4f4;
+    max-height: 5rem;
+    width: 100%;
+    font-size: 1.42vw;
+    font-family: "FF Mark W05", Arial, sans-serif;
+    text-decoration: none;
+}
+
+.footer__col {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Payment methods */
+.footer__col-upper {
+    display: block;
+}
+
+.payment-methods li {
+    align-content: left;
+    vertical-align: top;
+    display: inline;
+    align-self: right;
+}
+
+/* Social icons */
+
+.footer-social-icons {
+    width: 21.875em;
+    display: block;
+    margin: 0 auto;
+}
+
+._14 {
+    margin-bottom: 1em;
+}
+
+.social-icon {
+    color: #fff;
+}
+
+ul.social-icons {
+    margin-top: 0.625em;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 6.25em;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding: 10px 12px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-youtube {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+.fa-linkedin {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+/* contact info */
+
+.footer_col-right {
+    position: absolute;
+    right: 2.19em;
+    bottom: 2.19em;
+
+}
+
+/* copyright */
+
+.copyright {
+    position: absolute;
+    font-size: 1.07vw;
+    left: 50%;
+    bottom: -1rem;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #818080;
+}

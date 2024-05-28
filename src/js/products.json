@@ -1,0 +1,362 @@
+[
+    {
+        "id": "manga-1",
+        "titulo": "JUJUTSU KAISEN, VOL. 02",
+        "imagen": "../images/Manga/jujutsu-kaisen-vol-2.webp",
+        "categoria": {
+            "nombre": "Manga",
+            "id": "manga"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 10.63
+    },
+    
+    {
+        "id": "manga-2",
+        "titulo": "MAID-SAMA! (2-IN-1 EDITION), VOL. 09",
+        "imagen": "../images/Manga/maid-sama-2-in-1-edition-vol-3.jpg",
+        "categoria": {
+            "nombre": "Manga",
+            "id": "manga"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 15.65
+    },
+    
+    {
+        "id": "manga-3",
+        "titulo": "YU-GI-OH! (3-IN-1 EDITION), VOL. 10",
+        "imagen": "../images/Manga/yu-gi-oh-3-in-1-edition-vol-10.jpg",
+        "categoria": {
+            "nombre": "Manga",
+            "id": "manga"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 15.65
+    },
+    
+    {
+        "id": "manga-4",
+        "titulo": "BORUTO: NARUTO NEXT GENERATIONS, VOL. 02",
+        "imagen": "../images/Manga/boruto-vol-2.jpg",
+        "categoria": {
+            "nombre": "Manga",
+            "id": "manga"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 10.63
+    },
+    
+    {
+        "id": "manga-5",
+        "titulo": "MAGI: THE LABYRINTH OF MAGIC, VOL. 16",
+        "imagen": "../images/Manga/magi-the-labyrinth-of-magic-vol-16.jpg",
+        "categoria": {
+            "nombre": "Manga",
+            "id": "manga"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 10.63
+    },
+    
+    {
+        "id": "manga-6",
+        "titulo": "WAY OF THE HOUSEHUSBAND, VOL. 06",
+        "imagen": "../images/Manga/the-way-of-the-househusband-vol-6.webp",
+        "categoria": {
+            "nombre": "Manga",
+            "id": "manga"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 8.15
+    },
+    
+    {
+        "id": "manga-7",
+        "titulo": "DRAGON BALL, VOL. 03",
+        "imagen": "../images/Manga/dragon-ball-vol-3.jpg",
+        "categoria": {
+            "nombre": "Manga",
+            "id": "manga"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 10.66
+    },
+
+    {
+        "id": "anime-1",
+        "titulo": "Frieren: Más allá del fin del viaje Figura escala 1/7",
+        "imagen": "../images/Anime/frieren_figure_1.jpg.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 135
+    },
+    
+    {
+        "id": "anime-2",
+        "titulo": "MAPPA X DesignCOCO Jujutsu Kaisen Shibuya Incident Arc Satoru Gojo 1/7",
+        "imagen": "../images/Anime/Yuyutsu_figure_1.jpg.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 380
+    },
+    
+    {
+        "id": "anime-3",
+        "titulo": "Cardcaptor Sakura: Clear Card Big Hug Plush Kero-chan",
+        "imagen": "../images/Anime/keroberos_plush_1.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 60
+    },
+    
+    {
+        "id": "anime-4",
+        "titulo": "One Piece Monkey D. Luffy Ichiban",
+        "imagen": "../images/Anime/ichiban-kuji-monkey-d-luffy.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 51.95
+    },
+    
+    {
+        "id": "anime-5",
+        "titulo": "Fate/Grand Order Saber/Altria Pendragon (Alter) & Cuirassier Noir 1/8 Scale Figure ",
+        "imagen": "../images/Anime/fate_grand_order_figure_1.jpg.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 200
+    },
+    
+    {
+        "id": "anime-6",
+        "titulo": "Chainsaw Man 1/7",
+        "imagen": "../images/Anime/chain_saw_man_figure_1.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 300
+    },
+
+    {
+        "id": "anime-7",
+        "titulo": "Hatsune Miku - Hatsune Miku - 1/7 - Rose Cage Ver. (Good Smile Company)",
+        "imagen": "../images/Anime/Adsiztasarim-147.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 244.95
+    },
+
+    {
+        "id": "anime-8",
+        "titulo": "SpyXFamily-Anya Forger-Bond Forger-Premium Chokonose Figure",
+        "imagen": "../images/Anime/spyxfamily-anya-forger-bond-forger-premium-chokonose-figure-onlyfigure-39447891935487.jpg",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 26.95
+    },
+
+    {
+        "id": "anime-9",
+        "titulo": "My Hero Academia-Midoriya Izuku-Ichiban Kuji-Ishi-A Prize",
+        "imagen": "../images/Anime/my-hero-academia-midoriya-izuku-ichiban-kuji-ishi-a-prize-onlyfigure-39573247262975.webp",
+        "categoria": {
+            "nombre": "Anime",
+            "id": "anime"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 84.95
+    },
+    
+    {
+        "id": "series-1",
+        "titulo": "It's bigger on the Inside",
+        "imagen": "../images/Series/doctor_who_1.webp",
+        "categoria": {
+            "nombre": "Series",
+            "id": "series"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 26
+    },
+    
+    {
+        "id": "series-2",
+        "titulo": "Taza 3D El Señor de los Anillos El Pony Pisador",
+        "imagen": "../images/Series/lotr_p_1.webp",
+        "categoria": {
+            "nombre": "Series",
+            "id": "series"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 18
+    },
+    
+    {
+        "id": "series-3",
+        "titulo": "Taza Live Long and Prosper",
+        "imagen": "../images/Series/live_long_and_prosper.webp",
+        "categoria": {
+            "nombre": "Series",
+            "id": "series"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 10
+    },
+    
+    {
+        "id": "series-4",
+        "titulo": "Marvel Deadpool Metal Bottle",
+        "imagen": "../images/Series/deadpoolMetallflasche.webp",
+        "categoria": {
+            "nombre": "Series",
+            "id": "series"
+        },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "precio": 18
+    }
+    
+]
