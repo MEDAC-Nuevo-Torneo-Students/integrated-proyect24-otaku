@@ -58,78 +58,27 @@ header {
 
 /* Body styles */
 
-/* --------Class filter-------- */
+/* -------- Details -------- */
 
-.class_filtrer {
+.detail {
     display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    height: fit-content;
+    flex-direction: column;
 }
 
-.list_filtrer_option {
-    list-style: none;
-    padding: .5vw;
-    width: 88vw;
-    background-color: black;
-    border-radius: 50px;
+.detail .name {
+    font-size: 5vw;
+    font-weight: bold;
+    max-width: 93.68vw;
+    max-height: max-content;
+    align-self: center;
+}
+
+/* -------- main content details -------- */
+
+.wrapper {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-}
-
-.filtrer_option button {
-    width: 10vw;
-    padding-top: .2vw;
-    padding-bottom: .2vw;
-    height: fit-content;
-    font-size: 1.11vw;
-    font-weight: bold;
-    border-radius: 50px;
-}
-
-.filtrer_option button:hover {
-    background-color: goldenrod;
-    transform: scale(1.15);
-    cursor: pointer;
-}
-
-.search_option button {
-    width: 3vw;
-    height: fit-content;
-    border-radius: 50px;
-}
-
-/* Sticky Class using JavaScript */
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-/* --------Products container-------- */
-
-.section_tittle {
-    display: flex;
-    justify-content: center;
-    align-content: flex-end;
-}
-
-.section_tittle p {
-    vertical-align: bottom;
-    font-size: 10.42vw;
-    font-weight: bold;
-    color: #F1F0EC;
-    margin: 0;
-    margin-bottom: -2.5vw;
-    text-shadow: 0 5px 10px #0004;
-    z-index: -1;
-}
-
-.main_wrapper {
     background-color: #F1F0EC;
     width: 95vw;
     border-top-right-radius: 50px;
@@ -137,14 +86,71 @@ header {
     box-shadow: 0 5px 10px #0004;
 }
 
-.shop_grid {
+.content {
+    display: flex;
+    padding: 5vw;
+    justify-content: space-evenly;
+}
+
+.leftDetail .image img {
+    width: 40.41vw;
+    height: auto;
+    margin: 2vw;
+}
+
+.rightDetail {
+    background-color: #D9D9D9;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 5px 10px #0004;
+    padding: 2vw;
+}
+
+.rightDetail .head_resume .labelResume {
+    font-size: 4.22vw;
+    color: white;
+    font-weight: bold;
+    align-self: flex-start;
+    padding-inline-start: 2vw;
+    text-shadow: 0 5px 10px #0004;
+    z-index: 1;
+}
+
+.rightDetail .head_resume .description {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: -1vw;
+    padding: 1.4vw;
+    box-shadow: 0 5px 10px #0004;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: justify;
+    font-size: 1.67vw;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.labelPriceTable {
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+.priceSelector .fieldset{
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 1vw;
     display: grid;
-    justify-items: center;
-    padding: 3vw;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    column-gap: 1rem;
-    row-gap: 1rem;
+}
+
+.priceSelector .fieldset .field {
+    padding: .2vw;
+}
+
+.priceSelector .fieldset .field:hover {
+    border: solid 2px cornflowerblue;
 }
 
 .shop_cart_sticky {
@@ -153,27 +159,110 @@ header {
     position: sticky;
     justify-content: flex-end;
     bottom: 1em;
-    z-index: 200;
 }
 
-.products {
+.addToCard .product_buy {
+    width: 14.58vw;
+    height: auto;
+    padding: .5vw;
+    background-color: #e64a41;
+    align-self: center;
+    font-size: 1.67vw;
+    font-weight: bold;
+    color: white;
+}
+
+.addToCard .product_buy:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    box-shadow: 0 5px 10px #0004;
+}
+
+/* comments section */
+
+.comments {
+    width: 80%;
+}
+
+.comments .commentBox{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+    background-color: #D9D9D9;
+    border: solid black 3px;
+    border-radius: 30px;
+}
+
+.comments .labelComments {
+    padding-inline-start: 4vw;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+.comentUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commentBox .comentUser img{
+    width: 9.86vw;
+    height: auto;
+    border: solid black 5px;
+}
+
+.comentUser .userName {
+    font-size: 1.66vw;
+    font-weight: bold;
+}
+
+.commentBox .comentText {
+    background-color: white;
+    border-radius: 20px;
+    margin: 2vw;
+    padding: 1.4vw;
+    box-shadow: 0 5px 10px #0004;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: none;
+    font-size: 1.67vw;
+    font-weight: bold;
+}
+
+.otherProducts {
+    margin: 5vh;
+    max-width: 80%;
+}
+
+.otherProducts .similarList {
+    padding-inline-start: 4vw;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+
+.otherProducts .listProduct {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 2vw;
+    border: solid black 3px;
+    border-radius: 30px;
+    
+}
+
+/* other products show */
+
+.otherProducts .item {
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: black;
     box-shadow: 0 5px 10px #0004;
     padding: 1vw;
-
 }
 
-.link_product {
-    font-weight: bold;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-}
-
-.products .product_image {
+.otherProducts .item .product_image {
     width: 15.21vw;
     height: 23.44vw;
     object-fit: cover;
@@ -181,19 +270,19 @@ header {
 
 }
 
-.products .product_details {
+.otherProducts .item .product_details {
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 
-.product_details .product_title{
+.otherProducts .item .product_details .product_title{
     align-self: center;
     font-size: 1.11vw;
     font-weight: bold;
 }
 
-.products .product_buy {
+.otherProducts .item .product_buy {
     width: 8.26vw;
     height: 3.13vw;
     background-color: #e64a41;
@@ -204,17 +293,26 @@ header {
     cursor: pointer;
 }
 
-.products .product_buy:hover {
+.otherProducts .item .product_buy:hover {
     transform: scale(1.15);
     cursor: pointer;
     box-shadow: 0 5px 10px #0004;
 }
 
-.products:hover {
-    transform: scale(1.15);
+.otherProducts .item:hover {
+    transform: scale(1.05);
     cursor: pointer;
     z-index: 1;
     background-color: white;
+}
+
+.shop_cart_sticky {
+    margin-left: 90vw;
+    display: flex;
+    position: sticky;
+    justify-content: flex-end;
+    bottom: 1em;
+    z-index: 200;
 }
 
 /* Footer styles */

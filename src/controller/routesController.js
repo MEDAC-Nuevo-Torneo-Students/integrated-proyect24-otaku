@@ -14,6 +14,10 @@ const getShop = (req, res) => {
     res.render('shop',{ mensaje: '' });
 };
 
+const getProduct = (req, res) => {
+    res.render('product',{ mensaje: '' });
+};
+
 const getCart = (req, res) => {
     res.render('cart',{ mensaje: '' });
 };
@@ -33,6 +37,7 @@ module.exports = {
     getSignup,
     getShop,
     getCart,
+    getProduct,
     postRegister,
     postLogin
 

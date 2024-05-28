@@ -11,6 +11,7 @@ router
     .get('/signup', routesController.getSignup)
     .get('/shop', routesController.getShop)
     .get('/cart', routesController.getCart)
+    .get('/product', routesController.getProduct)
 
     // Post de rutas
     .post('/register', loginController.postRegister)

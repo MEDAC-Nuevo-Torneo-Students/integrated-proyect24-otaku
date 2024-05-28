@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OTAKU- Tienda online tienda</title>
+    <title>OTAKU- Tienda online producto</title>
     <link rel="icon" href="../images/logoOtaku.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/product.css">
 </head>
 
 <body>
@@ -32,61 +32,90 @@
     </header>
 
     <div class="container">
+        
+        <div class="detail">
+            <h1 class="name"></h1>
+            <div class="wrapper">
+                <div class="content">
+                    <div class="leftDetail">
+                        <div class="image">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="rightDetail">
+                        <div class="head_resume">
+                            <div class="labelResume">SINOPSIS</div>
+                            <div class="description"></div>
+                        </div>
+                        <div class="priceTable">
+                            <div class="labelPriceTable">Lista de vendedores</div>
+                            <div class="priceSelector">
+                                <div class="fieldset">
+                                    <div class="field">
+                                        <input class="vendorPrice" name="vendorPrice" type="radio" value="otaku"/>
+                                        <label class="nameVendor">Precio Oficial Otaku: </label>
+                                        <label class="price"></label>
+                                    </div>
+                                    <div class="field">
+                                        <input class="vendorPrice" name="vendorPrice" type="radio" value="nostromo"/>
+                                        <label class="nameVendor">NostromoShop: </label>
+                                        <label class="price2"></label>
+                                    </div>
+                                    <div class="field">
+                                        <input class="vendorPrice" name="vendorPrice" type="radio" value="arigato"/>
+                                        <label class="nameVendor">ArigatoONLINE: </label>
+                                        <label class="price3"></label>
+                                    </div>
+                                    <div class="field">
+                                        <input class="vendorPrice" name="vendorPrice" type="radio" value="pedroPadilla98"/>
+                                        <label class="nameVendor">PadillaPedro98</label>
+                                        <label class="price4"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="addToCard">
+                            <button class="product_buy" id="">AÑADIR AL CARRO</button>
+                        </div>
+                    </div>           
+                </div>
+                <div class="comments">
+                    <div class="labelComments">Valoraciones</div>
+                    <div class="commentBox">
+                        <div class="likeButton"></div>
+                        <div class="comentUser">
+                            <img src="" alt="" class="userImage">
+                            <div class="userName"></div>
+                        </div>
+                        <div class="comentText"></div>
+                    </div>
+                </div>
+                <div class="otherProducts">
+                    <div class="similarList">Productos Similares</div>
+                    <div class="listProduct">
 
-        <div class="class_filtrer_container">
-            <div id="class_filtrer" class="class_filtrer">
-                <ul class="list_filtrer_option">
-                    <li id="novedades" class="filtrer_option"><button class="filtrer_button">Novedades</button></li>
-                    <li id="populares" class="filtrer_option"><button class="filtrer_button">Populares</button></li>
-                    <li id="anime" class="filtrer_option"><button class="filtrer_button">Anime</button></li>
-                    <li id="manga" class="filtrer_option"><button class="filtrer_button">Manga</button></li>
-                    <li id="series" class="filtrer_option"><button class="filtrer_button">Series</button></li>
-                    <li id="fabricante" class="filtrer_option"><button class="filtrer_button">Fabricante</button></li>
-                    <li id="search" class="search_option"><button class="search_button">
-                            <svg viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                                <g id="SVGRepo_iconCarrier">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M15 10.5C15 12.9853 12.9853 15 10.5 15C8.01472 15 6 12.9853 6 10.5C6 8.01472 8.01472 6 10.5 6C12.9853 6 15 8.01472 15 10.5ZM14.1793 15.2399C13.1632 16.0297 11.8865 16.5 10.5 16.5C7.18629 16.5 4.5 13.8137 4.5 10.5C4.5 7.18629 7.18629 4.5 10.5 4.5C13.8137 4.5 16.5 7.18629 16.5 10.5C16.5 11.8865 16.0297 13.1632 15.2399 14.1792L20.0304 18.9697L18.9697 20.0303L14.1793 15.2399Z"
-                                        fill="#080341"></path>
-                                </g>
-                            </svg>
-                        </button></li>
-                </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="section_tittle">
-            <p class="text_tittle">TIENDA</p>
-        </div>
-        <div class="main_wrapper">
-            <div id="shop_grid" class="shop_grid">
-
-                 <!-- here goes the products -->
-                 
-            </div>
-            <div class="grid_selector"></div>
-        </div>
-
-        <div class="shop_cart_sticky">
-            <a href="\cart" class="cart_button">
-                <svg fill="#000000" width="10.42vw" height="14.65vh" viewBox="-1 0 19 19"
-                    xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg">
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                    <g id="SVGRepo_iconCarrier">
-                        <path
-                            d="M16.417 9.579A7.917 7.917 0 1 1 8.5 1.662a7.917 7.917 0 0 1 7.917 7.917zm-3.34-2.323a.63.63 0 0 0-.628-.628H5.892l-.436-1a.384.384 0 0 0-.351-.23H3.68a.384.384 0 1 0 0 .768h1.173l1.785 4.096a.37.37 0 0 0-.087-.01 1.161 1.161 0 1 0 0 2.322h.042a.792.792 0 1 0 .864 0h3.452a.792.792 0 1 0 .864 0h.565a.384.384 0 1 0 0-.767H6.55a.393.393 0 0 1 0-.787.38.38 0 0 0 .098-.013l5.803-.602a.714.714 0 0 0 .625-.694z">
-                        </path>
-                    </g>
-                </svg>
-            </a>
         </div>
     </div>
 
-    <script src="../js/shop.js"></script>
+    <div class="shop_cart_sticky">
+        <a href="\cart" class="cart_button">
+            <svg fill="#000000" width="10.42vw" height="14.65vh" viewBox="-1 0 19 19"
+                xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path
+                        d="M16.417 9.579A7.917 7.917 0 1 1 8.5 1.662a7.917 7.917 0 0 1 7.917 7.917zm-3.34-2.323a.63.63 0 0 0-.628-.628H5.892l-.436-1a.384.384 0 0 0-.351-.23H3.68a.384.384 0 1 0 0 .768h1.173l1.785 4.096a.37.37 0 0 0-.087-.01 1.161 1.161 0 1 0 0 2.322h.042a.792.792 0 1 0 .864 0h3.452a.792.792 0 1 0 .864 0h.565a.384.384 0 1 0 0-.767H6.55a.393.393 0 0 1 0-.787.38.38 0 0 0 .098-.013l5.803-.602a.714.714 0 0 0 .625-.694z">
+                    </path>
+                </g>
+            </svg>
+        </a>
+    </div>
+
+    <script src="../js/product.js"></script>
 </body>
 
 <footer class="footer">

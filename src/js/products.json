@@ -7,6 +7,13 @@
             "nombre": "Manga",
             "id": "manga"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 10.63
     },
     
@@ -18,6 +25,13 @@
             "nombre": "Manga",
             "id": "manga"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 15.65
     },
     
@@ -29,6 +43,13 @@
             "nombre": "Manga",
             "id": "manga"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 15.65
     },
     
@@ -40,6 +61,13 @@
             "nombre": "Manga",
             "id": "manga"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 10.63
     },
     
@@ -51,6 +79,13 @@
             "nombre": "Manga",
             "id": "manga"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 10.63
     },
     
@@ -62,6 +97,13 @@
             "nombre": "Manga",
             "id": "manga"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 8.15
     },
     
@@ -73,6 +115,13 @@
             "nombre": "Manga",
             "id": "manga"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 10.66
     },
 
@@ -84,6 +133,13 @@
             "nombre": "Anime",
             "id": "anime"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 135
     },
     
@@ -95,6 +151,13 @@
             "nombre": "Anime",
             "id": "anime"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 380
     },
     
@@ -106,6 +169,13 @@
             "nombre": "Anime",
             "id": "anime"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 60
     },
     
@@ -117,6 +187,13 @@
             "nombre": "Anime",
             "id": "anime"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 51.95
     },
     
@@ -128,6 +205,13 @@
             "nombre": "Anime",
             "id": "anime"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 200
     },
     
@@ -139,6 +223,13 @@
             "nombre": "Anime",
             "id": "anime"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 300
     },
 
@@ -150,6 +241,13 @@
             "nombre": "Anime",
             "id": "anime"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 244.95
     },
 
@@ -161,6 +259,13 @@
             "nombre": "Anime",
             "id": "anime"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 26.95
     },
 
@@ -172,6 +277,13 @@
             "nombre": "Anime",
             "id": "anime"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 84.95
     },
     
@@ -183,6 +295,13 @@
             "nombre": "Series",
             "id": "series"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 26
     },
     
@@ -194,6 +313,13 @@
             "nombre": "Series",
             "id": "series"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 18
     },
     
@@ -205,6 +331,13 @@
             "nombre": "Series",
             "id": "series"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 10
     },
     
@@ -216,6 +349,13 @@
             "nombre": "Series",
             "id": "series"
         },
+        "comentarios": {
+            "id": "1",
+            "usuario": "Asuna",
+            "imagen": "../images/Users/User_Asuna.jpg",
+            "texto": "Tempus quam pellentesque nec nam. Ac tortor vitae purus faucibus ornare suspendisse sed."
+        },
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "precio": 18
     }
     
